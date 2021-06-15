@@ -1,0 +1,73 @@
+.container3 {
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding-top: 15px;
+}
+
+body {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/350cf21f-8f79-41fc-b375-9cf9b90b6857/d1upobj-0d22954f-2154-44aa-9a6e-3eaa83a4f584.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8zNTBjZjIxZi04Zjc5LTQxZmMtYjM3NS05Y2Y5YjkwYjY4NTcvZDF1cG9iai0wZDIyOTU0Zi0yMTU0LTQ0YWEtOWE2ZS0zZWFhODNhNGY1ODQuanBnIn1dXX0.VJNwH-5kADU0oReXPe7QAqzoF74QDZcE9Fg-oOx6ZW4");
+}
+
+.flex-box-row-1 {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: url("https://thumbs.dreamstime.com/b/green-poker-table-background-textured-61373826.jpg")
+    center;
+  color: blanchedalmond;
+  height: 350px;
+}
+
+.flex-box-row-1 div {
+  border: 2px solid black;
+  flex: 1;
+}
+
+.flex-box-row-2 {
+  padding-top: 10px;
+  background: url("https://thumbs.dreamstime.com/b/green-poker-table-background-textured-61373826.jpg")
+    center;
+}
+
+.flex-box-row-2 button {
+  padding: 10px;
+  border: 1.5px solid black;
+}
+
+.flex-box-row-2 div {
+  padding: 10px;
+  border: 1.5px solid black;
+}
+
+.flex-box-row-3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+table,
+th,
+td {
+  border: 1.5px solid black;
+  padding: 5px;
+}
+
+#your-box img {
+  padding: 10px;
+}
+
+#dealer-box img {
+  padding: 10px;
+}
+
+.navbar .navbar-dark bg-dark {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar navbar-dark bg-dark {
+  text-align: center;
+}
